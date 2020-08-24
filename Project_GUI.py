@@ -164,6 +164,7 @@ class MiaApp:
     self.myfont = font.Font(size=13)
     self.iter=0
     self.mioGenitore.title("Learning of the structure of Bayesian networks")
+    self.mioGenitore.iconbitmap('ico/graph.ico')
     
     self.menubar = Menu(genitore)
     self.window = Toplevel(root)
@@ -585,6 +586,7 @@ class MiaApp:
       s=10
       string='casi= '+str(self.casi.get())+'    variabili= '+str(len(self.Graph.nodes()))
       self.window = Toplevel(root)
+      self.window.iconbitmap('ico/dataset.ico')
       self.window.title("Dataset")
       if self.dataset.shape[0]>22:
           btn= zeros((self.dataset.shape[1],10))
