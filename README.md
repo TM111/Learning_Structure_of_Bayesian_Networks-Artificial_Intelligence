@@ -14,4 +14,4 @@ Progetto IA Corso di Laurea Triennale
 
 ## Interfaccia grafica
 
-![Screenshot](./gui.png)
+![Screenshot](./gui.PNG)
