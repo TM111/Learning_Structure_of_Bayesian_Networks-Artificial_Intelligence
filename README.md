@@ -11,3 +11,7 @@ Progetto IA Corso di Laurea Triennale
 - Networkx
 - Numpy
 - Pillow
+
+## Interfaccia grafica
+
+![Screenshot](./gui.png)
